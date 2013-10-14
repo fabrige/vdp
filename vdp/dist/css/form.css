@@ -1,0 +1,35 @@
+/*CONFIG DU FORMULAIRE*/
+
+/*formulaire de contact*/
+
+.form .input0,.form .input1,.form .input2,.form .input3 {
+	border: 1px solid #ccc;
+	float: left;
+	margin-bottom: 10px;	
+}
+.form .input0{width: 150px;}
+.form .input1{width: 300px;}
+.form .input2{width: 150px;}
+.form .input3{width: 50px;}
+.form input { vertical-align: middle; }
+.form label {
+	width: 100px;
+	float: left;
+	display: block;
+	text-align: right;
+	padding-right: 10px;
+}
+.form label.ville{
+width: 50px;
+}
+.form br{clear: both;}
+.form .btn_envoyer{
+	background: url(../images/btn_envoyer.gif);
+	width: 202px;
+	height: 30px;
+	border: none;
+	cursor: pointer;
+}
+.form .etoile{
+color: tomato;
+}
