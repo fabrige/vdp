@@ -6806,3 +6806,10 @@ td.visible-print {
     display: none !important;
   }
 }
+#commentaire{
+float:left;
+width: 40%;
+}
+#gallery{
+float:right
+}
