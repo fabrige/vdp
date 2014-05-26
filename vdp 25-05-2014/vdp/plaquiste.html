@@ -13,6 +13,7 @@
 <link href="dist/css/bootstrap.css" rel="stylesheet">
 <link href="dist/css/main.css" rel="stylesheet">
 <link href="assets/css/carousel.css" rel="stylesheet">
+ <link href="dist/css/font-awesome.css" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="dist/css/jquery.lightbox-0.5.css" media="screen" />
 <link rel="stylesheet" type="text/css" href="dist/css/lightbox.css"/>
 <link href="dist/css/justified-nav.css" rel="stylesheet">
@@ -22,32 +23,57 @@
 </head>
 
 <body>
+	    <div>
+
+    <div class="masthead">
+	   <div class="container" id="header"> 
+      <div class="row" > 
+      <div class="col-md-10" id="logo_text">
+      <div style ="float:left; margin-right:5px; margin-top:8px;">
+        <img src="logo.png" alt="Title" height="35" width="42" style="margin-top: 4px;">
+        </div>
+      <div >
+      <h3 class="text-muted">Vynce Design &amp; Plâtrerie</h3>
+    </div>
+  </div>
+ <div class="col-md-2">
+      <div class="list" style="float:right;">
+               <!-- Add your phone number here -->
+               <div class="phone">
+                  <i class="fa fa-phone"></i> : 06-63-37-81-84
+               </div>
+               <hr>
+               <!-- Add your email id here -->
+               <div class="email">
+                  <i class="fa fa-envelope-o"></i> : vynce.design.platrerie@gmail.com
+               </div>
+               <hr>
+               <!-- Add your address here -->
+               <div class="address">
+                  <i class="fa fa-home"></i> : 79 rue de la Fraternité - 62119 DOURGES
+               </div>
+            </div>
+		</div>
+    </div>
+	 </div>
+	<div class="navbar-inverse"> 
+	 <div class="container">  
+		<ul class="nav nav-justified" id ="nav-bar">
+          <li><a href="index.html">Accueil</a></li>
+          <li class="active"><a href="plaquiste.html">Plâtrerie</a></li>
+          <li><a href="isolation.html">Isolation</a></li>          
+          <li><a href="menuiserie.html">Menuiserie bois</a></li>
+          <li><a href="agencement.html">Agencement</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+		</div>
+      </div>
+	    </div>
+	  </div>
 
 	<div class="container"  id="bg">
 
-		<div class="masthead">
-		
-			<div style ="float:left; margin-right:5px; margin-top:6px;">
-				<img src="logo.png" alt="Title" height="35" width="42" style="margin-top: 4px;">
-				</div>
-			<div >
-			<h3 class="text-muted">Vynce Design &amp; Plâtrerie</h3>
-		
-			</div>
-			<!--div class="navbar-collapse collapse"-->
-			<!--div class="navbar navbar-inverse navbar-fixed-top"-->
-			<ul class="nav nav-justified">
-				<li><a href="index.html">Accueil</a></li>
-				<li class="active"><a href="plaquiste.html">Plâtrerie</a></li>
-				<li><a href="menuiserie.html">Menuiserie bois</a></li>
-				<li><a href="isolation.html">Isolation</a></li>
-				<li><a href="agencement.html">Agencement</a></li>
-				<li><a href="contact.html">Contact</a></li>
-			</ul>
-	<!--/div-->
-		</div>
-
-		<!-- Carousel
+<!-- Carousel
     ================================================== -->
 		<div id="myCarousel" class="carousel slide">
 			<!-- Indicators -->
@@ -58,12 +84,12 @@
 			</ol>
 			<div class="carousel-inner">
 				<div class="item active">
-					<img src="assets/ico/PHOTOS VDP 011.jpg" alt="...">
+					<img src="assets/ico/plafond_deporte.jpg" alt="...">
 					<div class="carousel-caption"></div>
 
 				</div>
 				<div class="item">
-					<img src="assets/ico/DSC_0032.jpg" alt="...">
+					<img src="assets/ico/chambre_rose.jpg" alt="...">
 					<div class="carousel-caption"></div>
 				</div>
 				<div class="item">
@@ -77,83 +103,54 @@
 				class="glyphicon glyphicon-chevron-right"></span></a>
 		</div>
 		<!-- /.carousel -->
-		<div id="commentaire">
-			Nous assurons la pose de vos cloisons et vos plafonds techniques
-			ou décoratifs. Principalement à usage professionnel, les plafonds
-			suspendus possèdent un double avantage : ils sont esthétiques et
-			isolants. Pour de plus amples informations, <a href="contact.html" />contactez
-			nous<a>. 
-		</div>
-		<div id="gallery">
+
+		<div class="bor"></div>
+ <div class="row" >
+		<div class="col-md-6">
+<p>Le Placoplatre est devenu incontournable dans l’aménagement intérieur, grâce à ses avantages remarquables.
+Nous l’utilisons souvent pour assurer la rénovation et la restauration des pièces à vivres la cuisine,
+la salle de bains, salon, chambre…</p>
+
+        <div class="main-box">
+                    <p>Nous garantissons une réalisation minutieuse pour : </p>
+                    <ul>
+                      <li><i class="fa fa-angle-right"></i> Montage de cloisons placoplatre</li>
+					  <li><i class="fa fa-angle-right"></i> Rénovation de plafond</li>					  
+                      <li><i class="fa fa-angle-right"></i> Enduit plâtre</li>
+                      <li><i class="fa fa-angle-right"></i> Pose de cloisons de distribution</li>
+					  <li><i class="fa fa-angle-right"></i> Pose de cloison de séparation</li>
+					  <li><i class="fa fa-angle-right"></i> Pose de plafonds suspendus</li>
+                    </ul>
+                  </div>
+
+ </div>
+		<div id="gallery" class="col-md-6">
 			<ul>
-				<li><a href="dist/images/Habillagepoele1.jpg"
-					title="Utilize a flexibilidade dos seletores da jQuery e crie um grupo de imagens como desejar. $('#gallery').lightBox();">
-						<img src="dist/images/Habillagepoele.jpg" width="72" height="72" alt="" />
-				</a></li>
 				<li><a href="dist/images/creation_niche_deco.jpg"
 					title="Création  niches décoratives">
 						<img src="dist/images/creation_niche_deco.jpg" width="72" height="72" alt="" />
 				</a></li>
-				<li><a href="dist/images/design1.jpg"
-					title="Utilize a flexibilidade dos seletores da jQuery e crie um grupo de imagens como desejar. $('#gallery a').lightBox();">
-						<img src="dist/images/design1.jpg" width="72" height="72" alt="" />
-				</a></li>
+	
 				<li><a href="dist/images/poeleAvant.jpg"
-					title="Utilize a flexibilidade dos seletores da jQuery e crie um grupo de imagens como desejar. $('#gallery a').lightBox();">
-						<img src="dist/images/poeleAvant.jpg" " width="72" height="72"
+					title="content;">
+						<img src="dist/images/poeleAvant.jpg" width="72" height="72"
 						alt="" />
 				</a></li>
-				<li><a href="dist/images/poeleApres.jpg"
-					title="Utilize a flexibilidade dos seletores da jQuery e crie um grupo de imagens como desejar. $('#gallery a').lightBox();">
-						<img src="dist/images/poeleApres.jpg" width="72" height="72"
-						alt="" />
-				</a></li>
-				<li><a href="dist/images/design1.jpg"
-					title="Utilize a flexibilidade dos seletores da jQuery e crie um grupo de imagens como desejar. $('#gallery a').lightBox();">
-						<img src="dist/images/design1.jpg" width="72" height="72" alt="" />
-				</a></li>
-				<li><a href="dist/images/poeleAvant.jpg"
-					title="Utilize a flexibilidade dos seletores da jQuery e crie um grupo de imagens como desejar. $('#gallery a').lightBox();">
-						<img src="dist/images/poeleAvant.jpg" " width="72" height="72"
-						alt="" />
-				</a></li>
-				<li><a href="dist/images/poeleApres.jpg"
-					title="Utilize a flexibilidade dos seletores da jQuery e crie um grupo de imagens como desejar. $('#gallery a').lightBox();">
-						<img src="dist/images/poeleApres.jpg" width="72" height="72"
-						alt="" />
-				</a></li>
-				<li><a href="dist/images/design1.jpg"
-					title="Utilize a flexibilidade dos seletores da jQuery e crie um grupo de imagens como desejar. $('#gallery').lightBox();">
-						<img src="dist/images/design1.jpg" width="72" height="72" alt="" />
-				</a></li>
-				<li><a href="dist/images/escalier.jpg"
-					title="Utilize a flexibilidade dos seletores da jQuery e crie um grupo de imagens como desejar. $('#gallery a').lightBox();">
-						<img src="dist/images/escalier.jpg" width="72" height="72" alt="" />
-				</a></li>
-				<li><a href="dist/images/design1.jpg"
-					title="Utilize a flexibilidade dos seletores da jQuery e crie um grupo de imagens como desejar. $('#gallery a').lightBox();">
-						<img src="dist/images/design1.jpg" width="72" height="72" alt="" />
-				</a></li>
-				<li><a href="dist/images/poeleAvant.jpg"
-					title="Utilize a flexibilidade dos seletores da jQuery e crie um grupo de imagens como desejar. $('#gallery a').lightBox();">
-						<img src="dist/images/poeleAvant.jpg" " width="72" height="72"
+				<li><a href="dist/images/poele_apres.jpg"
+					title="content;">
+						<img src="dist/images/poele_apres.jpg" width="72" height="72"
 						alt="" />
 				</a></li>
 
 			</ul>
 		</div>
-
-
-
-		<!-- Bootstrap core JavaScript
-    ================================================== -->
-		<!-- Placed at the end of the document so the pages load faster -->
-		<!-- Bootstrap core JavaScript
-    ================================================== -->
-		<!-- Placed at the end of the document so the pages load faster -->
-
+</div>
+          <p>        
+			Vous hésitez, vous avez besoin de conseils en rénovation de votre habitat dans le Nord-Pas-De-Calais?
+			Nous vous proposons de vous rencontrer, discuter de vos besoins, vous conseiller et trouver avec vous la solution adaptée à votre demande.
+			Contactez-nous au 06-63-37-81-84</p>. 
 		<script src="assets/js/jquery.js"></script>
-		<script type="text/javascript" src="assets/js/jquery.lightbox-0.5.js"></script>
+		<script type="text/javascript" src="dist/js/jquery.lightbox-0.5.js"></script>
 		<script src="dist/js/bootstrap.min.js"></script>
 		<script src="assets/js/holder.js"></script>
 		<script>

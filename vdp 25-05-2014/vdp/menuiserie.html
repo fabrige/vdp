@@ -12,6 +12,7 @@
     <!-- Bootstrap core CSS -->
 		<link href="dist/css/main.css" rel="stylesheet">
 <link href="dist/css/bootstrap.css" rel="stylesheet">
+ <link href="dist/css/font-awesome.css" rel="stylesheet">
 <link href="assets/css/carousel.css" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="dist/css/jquery.lightbox-0.5.css" media="screen" />
 <link rel="stylesheet" type="text/css" href="dist/css/lightbox.css"/>
@@ -20,29 +21,57 @@
   </head>
 
   <body>
+  	    <div>
 
-    <div class="container">
-
-      <div class="masthead">
-			<div style ="float:left; margin-right:5px; margin-top:6px;">
-				<img src="logo.png" alt="Title" height="35" width="42" style="margin-top: 4px;">
-				</div>
-			<div >
-			<h3 class="text-muted">Vynce Design &amp; Plâtrerie</h3>
-		
-			</div>
-        <ul class="nav nav-justified">
+    <div class="masthead">
+	   <div class="container" id="header"> 
+      <div class="row" > 
+      <div class="col-md-10" id="logo_text">
+      <div style ="float:left; margin-right:5px; margin-top:8px;">
+        <img src="logo.png" alt="Title" height="35" width="42" style="margin-top: 4px;">
+        </div>
+      <div >
+      <h3 class="text-muted">Vynce Design &amp; Plâtrerie</h3>
+    </div>
+  </div>
+ <div class="col-md-2">
+      <div class="list" style="float:right;">
+               <!-- Add your phone number here -->
+               <div class="phone">
+                  <i class="fa fa-phone"></i> : 06-63-37-81-84
+               </div>
+               <hr>
+               <!-- Add your email id here -->
+               <div class="email">
+                  <i class="fa fa-envelope-o"></i> : vynce.design.platrerie@gmail.com
+               </div>
+               <hr>
+               <!-- Add your address here -->
+               <div class="address">
+                  <i class="fa fa-home"></i> : 79 rue de la Fraternité - 62119 DOURGES
+               </div>
+            </div>
+		</div>
+    </div>
+	 </div>
+	<div class="navbar-inverse"> 
+	 <div class="container">  
+		<ul class="nav nav-justified" id ="nav-bar">
           <li><a href="index.html">Accueil</a></li>
           <li><a href="plaquiste.html">Plâtrerie</a></li>
+          <li><a href="isolation.html">Isolation</a></li>          
           <li class="active"><a href="menuiserie.html">Menuiserie bois</a></li>
-          <li><a href="isolation.html">Isolation</a></li>
           <li><a href="agencement.html">Agencement</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
+		</div>
       </div>
-	  
-	
-	
+	    </div>
+	  </div>
+
+<div class="bor"></div>
+    <div class="container">
+
 	  <div class="container marketing">
 		 <div id="commentaire">
 		  
