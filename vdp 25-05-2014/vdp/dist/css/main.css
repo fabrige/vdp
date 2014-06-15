@@ -65,10 +65,48 @@ border-bottom: 3px solid #eee;
 border-radius: 10px;
 }
 
-#tite-h2{
+#tite-h1{
 font-family: "Oswald", sans-serif;
 margin: 3px 0px;
 padding: 3px 0px;
+font-size: 18px;
+}
+#tite-h3{
+font-family: "Oswald", sans-serif;
+margin: 3px 0px;
+padding: 3px 0px;
+font-size: 13px;
+}
+h1{
+font-family: "Oswald", sans-serif;
+margin:0px;
+padding: 0px;
+display: inline-block !important;
+font-weight: 500;
+font-size: 13px;
+line-height: 1.1;
+}
+.logo-image{
+float:left; margin-right:5px;
+}
+.contact{
+float:right; 
+}
+.tite-prestation{
+font-family: "Oswald", sans-serif;
+margin:0px;
+padding: 0px;
+display: inline-block !important;
+margin-right: 4px;
+font-size: 13px;
+}
+.prestation{
+margin-top: 10px;
+margin-bottom: 10px;
+font-size: 18px;
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-weight: 500;
+line-height: 1.1;
 }
 .row ul {
 list-style-type: none !important;

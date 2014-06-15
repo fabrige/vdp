@@ -59,10 +59,6 @@ a:hover {
   outline: 0;
 }
 
-h1 {
-  margin: 0.67em 0;
-  font-size: 2em;
-}
 
 abbr[title] {
   border-bottom: 1px dotted;
@@ -416,7 +412,7 @@ cite {
 
 .text-muted {
   color: #999999;
-  /*color: #000000;*/
+  margin-top: 5px;
   font: 30px/1.1em Courier New,courier-ps-w01,courier-ps-w02,courier-ps-w10
 }
 
@@ -452,7 +448,7 @@ cite {
   text-align: center;
 }
 
-h1,
+
 h2,
 h3,
 h4,
@@ -486,7 +482,7 @@ h6 small,
   color: #999999;
 }
 
-h1,
+
 h2,
 h3 {
   margin-top: 20px;
@@ -500,7 +496,7 @@ h6 {
   margin-bottom: 10px;
 }
 
-h1,
+
 .h1 {
   font-size: 36px;
 }
